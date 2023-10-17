@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{748613AF-6C16-471A-8C23-CFEF5D742728}|Default">
+  <MonoDevelop.Ide.ItemProperties.ASPCoreWebAPICRUD PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ASPCoreWebAPICRUD/Controllers/StudentAPIController.cs">
+    <Files>
+      <File FileName="ASPCoreWebAPICRUD/Controllers/StudentAPIController.cs" Line="73" Column="10" />
+      <File FileName="ASPCoreWebAPICRUD/Models/MyDBContext.cs" Line="26" Column="1" />
+      <File FileName="ASPCoreWebAPICRUD/appsettings.json" Line="13" Column="1" />
+      <File FileName="ASPCoreWebAPICRUD/Program.cs" Line="16" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ASPCoreWebAPICRUD" expanded="True">
+            <Node name="ASPCoreWebAPICRUD" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="StudentAPIController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
