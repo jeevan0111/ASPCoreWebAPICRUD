@@ -20,12 +20,14 @@ namespace ASPCoreWebAPICRUD.Controllers
             this.context = context;
         }
 
+        
         [HttpGet]
         public async Task<ActionResult<List<Student>>> GetStudents()
         {
             var data = await  context.Students.ToListAsync();
             return Ok(data);
         }
+
 
         /*
         [HttpGet("{id}")]
@@ -40,6 +42,7 @@ namespace ASPCoreWebAPICRUD.Controllers
         }
         */
 
+       
         [HttpGet("{id}")]
         public async Task<ActionResult<Student>> GetStudentById(int id)
         {
@@ -51,6 +54,8 @@ namespace ASPCoreWebAPICRUD.Controllers
             return Ok(student);
         }
 
+
+     
         [HttpPost]
       public async Task<ActionResult<Student>> CreateStudent (Student std)
         {
@@ -58,6 +63,8 @@ namespace ASPCoreWebAPICRUD.Controllers
             await context.SaveChangesAsync();
             return Ok(std);
         }
+        
+
 
         [HttpPut("{id}")]
         public async Task<ActionResult<Student>> UpdateStudent(int id, Student std)
@@ -72,6 +79,7 @@ namespace ASPCoreWebAPICRUD.Controllers
             return Ok(std);
         }
 
+      
         [HttpDelete("{id}")]
         public async Task<ActionResult<Student>> DeleteStudent (int id)
         {
@@ -85,6 +93,6 @@ namespace ASPCoreWebAPICRUD.Controllers
             await  context.SaveChangesAsync();
             return Ok();
         }
-
+        
     }
 }
